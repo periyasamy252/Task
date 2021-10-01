@@ -12,7 +12,7 @@
       
         <q-card class='col-8'>
           <q-card-actions align='left'>
-            <span class='text-light-blue=6'>Chart</span>
+            <span class='text-light-blue=6'>TodoList</span>
           </q-card-actions>
           <div id='TodoList'></div>
         </q-card>
@@ -21,7 +21,7 @@
     <div class="row justify-center">
         <q-card class='col-8'>  
           <q-card-actions align='left'>
-            <span class='text-light-blue=6'>Chart</span>
+            <span class='text-light-blue=6'>Attendance</span>
           </q-card-actions>
           <div id='AttendanceList'></div>
         </q-card>
@@ -119,8 +119,8 @@ export default  {
           enabled: false
         },
         xaxis: {
-          categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
-            'United States', 'China', 'Germany'
+          categories: ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+            'August', 'September', 'Octomber','November'
           ],
         }
         };
@@ -148,7 +148,7 @@ export default  {
           curve: 'straight'
         },
         title: {
-          text: 'Product Trends by Month',
+          text: 'Month Attendance',
           align: 'left'
         },
         grid: {
