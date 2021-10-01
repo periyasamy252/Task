@@ -120,7 +120,7 @@ export default  {
         },
         xaxis: {
           categories: ['January', 'February', 'March', 'April', 'May', 'June', 'July',
-            'August', 'September', 'Octomber','November'
+            'August', 'September', 'Octomber','November','December'
           ],
         }
         };
